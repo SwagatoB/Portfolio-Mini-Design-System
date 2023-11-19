@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+    <title>Portfolio Mini Design System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+    <link rel=" shortcut icon" type="image/png" href="./img/favicon.png">
+    <link rel="apple-touch-icon" href="img/favicon.png">
+    
+    <!-- Custom styles for this template -->
+    <link href="../css/sidebars.css" rel="stylesheet">
+    <link href="../css/color.css" rel="stylesheet">
+  </head>
+  <body>
+    
+
+<!-- Sidebar code-->
+<main class="d-flex flex-nowrap">
+ 
+      <!-- This determines the width of the sidebar. Change if needed. -->
+      <div class="flex-shrink-0 p-3" style="width: 300px;" style="color: black;">
+          
+        <a href="../index.html" class="d-flex align-items-center pb-3 mb-3 border-bottom">
+          <img class="Logo" src="../img/inversewithtext.svg" width="100%" alt="x">
+        </a>
+        
+        <ul class="list-unstyled ps-0">
+          <li class="mb-1">
+            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" 
+            data-bs-toggle="collapse" data-bs-target="#foundations-collapse" aria-expanded="false">
+            Foundations
+            </button>
+            <div class="collapse" id="foundations-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="../foundation/type.html" class="link-dark d-inline-flex text-decoration-none rounded">Typography</a></li>
+                <li><a href="../foundation/color.html" class="link-dark d-inline-flex text-decoration-none rounded">Color Pallete</a></li>
+                <li><a href="../foundation/logo.html" class="link-dark d-inline-flex text-decoration-none rounded">Logo Variations</a></li>
+        
+              </ul>
+            </div>
+          </li>
+    
+          <li class="mb-1">
+            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" 
+            data-bs-toggle="collapse" data-bs-target="#components-collapse" aria-expanded="false">
+             Components
+            </button>
+            <div class="collapse" id="components-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="../components/Buttons.html" class="link-dark d-inline-flex text-decoration-none rounded">Buttons</a></li>
+                <li><a href="../components/Cards.html" class="link-dark d-inline-flex text-decoration-none rounded">Cards</a></li>
+                <li><a href="../components/Footers.html" class="link-dark d-inline-flex text-decoration-none rounded">Footers</a></li>
+                <li><a href="../components/NavigationBars.html" class="link-dark d-inline-flex text-decoration-none rounded">Navigation Bars</a></li>
+                <li><a href="../components/Icons.html" class="link-dark d-inline-flex text-decoration-none rounded">Icons</a></li>
+                <li><a href="../components/ImagePlaceholders.html" class="link-dark d-inline-flex text-decoration-none rounded">Image Placeholders</a></li>
+         
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" 
+            data-bs-toggle="collapse" data-bs-target="#patterns-collapse" aria-expanded="false">
+              Page Patterns
+            </button>
+            <div class="collapse" id="patterns-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="../patterns/page1.html" class="link-dark d-inline-flex text-decoration-none rounded">Homepage</a></li>
+                <li><a href="../patterns/page2.html" class="link-dark d-inline-flex text-decoration-none rounded">Other Page</a></li>
+           
+              </ul>
+            </div>
+          </li>
+       
+        </ul>
+      </div>
+      <div class="b-example-divider b-example-vr"></div>
+
+   <!-- Page Content  -->
+      <div class = "container-fluid overflow-auto">
+        <div class="container">
+          <div class="row p-5 pt-6">
+            <div id="content">
+    
+              <h1>Color Palette</h1>
+    
+              <p>The color palette to be used for this design system
+                colors.</p>
+              <h2>Brand Colors</h2>
+    
+              <div class="col">
+                <!-- row 1 -->
+                <hr class="solid2">
+                <div class="row">
+                  <div class="col-3">
+                    <div class="color1"></div>
+                  </div>
+                  <div class="col">
+                    <h3>Violet Glow</h3>
+                    <p>Hex Code: #5221E6</p>
+                  </div>
+                  <div class="col">
+                    <h4>Uses:</h4>
+                    <div class="row ">
+                      <ul>
+                        <li>Main branding color</li>
+                        <li>Buttons</li>
+                        <li>Icons</li>
+                        <li>Graphic elements</li>
+                        <li>Text links</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+    
+                <!-- row 2 -->
+                <hr class="solid2">
+                <div class="row">
+                  <div class="col-3">
+                    <div class="color2"></div>
+                  </div>
+                  <div class="col">
+                    <h3>River Styx</h3>
+                    <p>Hex Code: #181823</p>
+                  </div>
+                  <div class="col">
+                    <h4>Uses:</h4>
+                    <div class="row ">
+                      <ul>
+                        <li>Secondary color</li>
+                        <li>Footer background</li>
+                        <li>Navigation bar background</li>
+                        <li>Card content background</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+    
+                <!-- row 3 -->
+    
+                <hr class="solid2">
+                <div class="row">
+                  <div class="col-3">
+                    <div class="color3"></div>
+                  </div>
+                  <div class="col">
+                    <h3>Gray</h3>
+                    <p>Hex Code: #5B6876</p>
+                  </div>
+                  <div class="col">
+                    <h4>Uses:</h4>
+                    <div class="row ">
+                      <ul>
+                        <li>Secondary text</li>
+                        <li>Disabled states</li>
+                        <li>Inactive navigation menu items</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+    
+                <!-- row 4 -->
+    
+                <hr class="solid2">
+                <div class="row">
+                  <div class="col-3">
+                    <div class="color4"></div>
+                  </div>
+                  <div class="col">
+                    <h3>White</h3>
+                    <p>Hex Code: #FFFFFF</p>
+                  </div>
+                  <div class="col">
+                    <h4>Uses:</h4>
+                    <div class="row ">
+                      <ul>
+                        <li>Logo</li>
+                        <li>Main text color</li>
+                        <li>Icons</li>
+                        <li>H1/Header text</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+    
+                <!-- row 5 -->
+    
+                <hr class="solid2">
+                <div class="row">
+                  <div class="col-3">
+                    <div class="color5"></div>
+                  </div>
+                  <div class="col">
+                    <h3>Matt Black</h3>
+                    <p>Hex Code: #151515</p>
+                  </div>
+                  <div class="col">
+                    <h4>Uses:</h4>
+                    <div class="row ">
+                      <ul>
+                        <li>Main background</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+    
+              </div>
+    
+            </div> <!-- Content  -->
+          </div><!-- Row  -->
+        </div>
+    
+    		             
+    
+        </div>      <!-- Content  -->
+
+  
+
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+      <script src="../js/sidebars.js"></script>
+  </body>
+</html>

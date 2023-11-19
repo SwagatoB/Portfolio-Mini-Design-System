@@ -1,0 +1,43 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+/* Custom Styles */
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-weight: normal;
+    background: black;
+    color: black;
+  }
+  
+.google-font-text {
+    font-family: 'Lato';
+}
+
+.banner-text{
+    color: white;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #8491a0;
+  }
+
+.jumbotron{
+    color: white;
+    background-color: white;
+}
+
+.card-title{
+    color: black;
+}
+
+.card-text{
+    color: black !important;
+}
+
+h1, h2{
+    color: white;
+}

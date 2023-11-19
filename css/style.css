@@ -1,0 +1,74 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+.google-font-text {
+    font-family: 'Lato';
+}
+.container-fluid{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-weight: normal;
+    background: black;
+    color: black;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #8491a0;
+  }
+
+  hr, .hr{
+    color: #8491a0;
+    border-color: #8491a0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+    font-family: 'Lato', serif;
+    color: #ffffff;
+    font-weight: 400;
+  }
+  
+  h1,
+  .h1 {
+    font-size: 2.488rem;
+  }
+  
+  h2,
+  .h2 {
+    font-size: 2.074rem;
+  }
+  
+  h3,
+  .h3 {
+    font-size: 1.728rem;
+  }
+  
+  h4,
+  .h4 {
+    font-size: 1.44rem;
+  }
+  
+  h5,
+  .h5 {
+    font-size: 1.2rem;
+  }
+  

@@ -1,0 +1,109 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-weight: normal;
+    background: black;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #8491a0;
+  }
+
+.typography-container{
+    padding-bottom: 120px;
+}
+
+hr{
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    background-color: lightgrey;
+}
+
+h1,h2,h3,h4{
+    padding-bottom: 0.667rem;
+}
+
+.type-intro{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+.LatoMerri{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.LatoMerri h1,h2,h3,h4{
+    font-family: "Lato", serif;
+    color: #ffffff;
+}
+
+.LatoMerri h1{
+    font-family: "Lato", serif;
+    font-size: 3.052rem;
+    font-weight: 300;
+}
+
+.LatoMerri h2{
+    font-family: "Lato", serif;
+    font-size: 2.441rem;
+    font-weight: 300;
+}
+
+.LatoMerri h3{
+    font-family: "Lato", serif;
+    font-size: 1.953rem;
+    font-weight: 600;
+}
+
+.LatoMerri h4{
+    font-family: "Lato", serif;
+    font-size: 1.563rem;
+    font-weight: 700;
+}
+
+.LatoMerri em{
+    font-size: 1em;
+    font-weight: 725;
+}
+
+.LatoMerri a{
+    font-size: 1em;
+    font-weight: 700;
+    color: #ffffff;;
+    text-decoration-thickness: 2px;
+    text-decoration: underline;
+    text-decoration-color: #36abfd;
+}
+
+.LatoMerri a:hover {
+    color: #0095ff;
+    text-decoration: none;
+}
+
+.LatoMerri .hover {
+    font-weight: 550;
+    color: #0095ff;
+    text-decoration: none;
+}
+
+/*Code*/
+
+code {
+    color: #ffffff;;
+    font-size: .875rem;
+}
+
+.specs {
+    padding-top: 20px;
+}
